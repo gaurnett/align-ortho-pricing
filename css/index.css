@@ -1,0 +1,210 @@
+html, body {
+    width:100vw;
+    height:100vh;
+    margin: 0;
+}
+
+.pricing {
+    background: #fff;
+    height: 100vh;
+}
+
+#results {
+    margin: auto;
+    width: 50%;
+}
+
+.patient-results {
+    width: 180px;
+    height: 180px;
+    text-align: center;
+}
+
+#heading {
+}
+
+#pricing-cards {
+    /* background-color: #e7e9e8; */
+    padding: 32px;
+    margin-bottom: 16px;
+}
+
+#pricing-cards-col {
+    /* height: 100px;
+    width: 100px; */
+    margin: auto;
+    width: 50%;
+}
+
+#pricing-child {
+    height: 100%;
+}
+
+#gold {
+    margin-top: -32px;
+    width: 100%;
+}
+
+#silver {
+    /* width: 90%; */
+}
+
+#platinum {
+    /* width: 90%; */
+}
+
+.card {
+    border: none;
+}
+/* .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+} */
+
+.pricing .card {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    border-radius: 32px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.pricing .card .braces-cost {
+    width: 100%;
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.pricing .card .braces-price {
+    margin: 16px;
+    margin-bottom: 0.25rem;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.pricing .card:hover .btn {
+    opacity: 1;
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+.pricing .popular {
+    z-index: 1;
+}
+
+.badge.badge-success {
+    background-color: black;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+#logo {
+    height: 150px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body-details {
+    margin: 16px;
+}
+
+#silver-divider {
+    background-color: #c22026; 
+    height: 8px; 
+    width: 100%; 
+}
+
+#gold-divider {
+    background-color: #3651a3; 
+    height: 8px; 
+    width: 100%; 
+}
+
+#platinum-divider {
+    background-color: black; 
+    height: 8px; 
+    width: 100%; 
+}
+
+#gold-price-input {
+    border: none; 
+    border-width: 0; 
+    box-shadow: none;
+}
+
+#slogan {
+    width: 400px;
+}
+
+.circles {
+    background-image: url("../assets/img/circles.png");
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: right 0px top 10px;
+}
+
+.main-circle {
+    background-image: url("../assets/img/circles.png");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: right 0px top 10px;
+}
+
+.pricing-top {
+    width: 100%;
+}
+
+#social {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+
+.fa-ul {
+    font-size: 14px;
+}
